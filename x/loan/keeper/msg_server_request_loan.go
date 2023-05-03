@@ -16,8 +16,6 @@ func (k msgServer) RequestLoan(goCtx context.Context, msg *types.MsgRequestLoan)
 	return &types.MsgRequestLoanResponse{}, nil
 }
 
-
-
 // package keeper
 
 // import (
